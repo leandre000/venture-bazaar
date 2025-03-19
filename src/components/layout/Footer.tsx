@@ -1,7 +1,6 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
-import { Facebook, Twitter, Instagram, GitHub, Mail } from "lucide-react";
+import { Facebook, Twitter, Instagram, Github, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
@@ -32,7 +31,7 @@ const Footer = () => {
                 <Instagram className="h-5 w-5" />
               </Button>
               <Button variant="ghost" size="icon" aria-label="GitHub">
-                <GitHub className="h-5 w-5" />
+                <Github className="h-5 w-5" />
               </Button>
             </div>
           </div>
